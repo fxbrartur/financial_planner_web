@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>financial_planner_web_dotnet_service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../3-financial-planner-web-dotnet-domain/financial-planner-web-dotnet-domain.csproj" />
+    <ProjectReference Include="../4-financial-planner-web-dotnet-infra/financial-planner-web-dotnet-infra.csproj" />
+  </ItemGroup>
+
+</Project>
